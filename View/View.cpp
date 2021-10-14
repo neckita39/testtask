@@ -104,7 +104,7 @@ void View::setMiniMissilesParams() {
         tmp.setOrigin(m_missile_texture.getSize().x / 2, m_missile_texture.getSize().y / 2);
         if (tc.currentTimeFromStart()-2  < (it.getLifeTime()/2.0 )) {
             it.setVelocity(it.getVelocity() * 2);
-            tmp.setPosition(it.getX(), it.getY());
+            tmp.setPosition(it.getX()-0.01, it.getY()-0.01);
             m_spriteMissiles.push_back(tmp);
         } else {
             setBoomParams();
