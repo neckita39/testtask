@@ -1,7 +1,7 @@
 #pragma once
 #include <math.h>
 #include <ctime>
-#include "TimeController.h"
+#include "../MathVariables/TimeController.h"
 #include <iostream>
 class Missile
 {

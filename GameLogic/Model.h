@@ -1,12 +1,12 @@
 #pragma once
 #include "Observer.h"
-#include "Gun.h"
-#include "Missile.h"
+#include "../Objects/Gun.h"
+#include "../Objects/Missile.h"
 #include <ctime>
 #include <iostream>
 #include <random>
-#include "Boom.h"
-#include "Distribution.h"
+#include "../Objects/Boom.h"
+#include "../MathVariables/Distribution.h"
 #include "Observable.h"
 class Model : public Observable
 {

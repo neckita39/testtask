@@ -1,11 +1,11 @@
 #pragma once
-#include "Observer.h"
+#include "../GameLogic/Observer.h"
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "TimeController.h"
-#include "Boom.h"
-#include "Observable.h"
-#include "Model.h"
+#include "../MathVariables/TimeController.h"
+#include "../Objects/Boom.h"
+#include "../GameLogic/Observable.h"
+#include "../GameLogic/Model.h"
 class View : public Observer
 {
 public:

@@ -1,7 +1,7 @@
 //
 // Created by Никита Щербо on 13.10.2021.
 //
-#include "Boom.h"
+#include "../Objects/Boom.h"
 #include "Model.h"
 Model::Model(int width, int height, int missiles_count, int booms_multi) {
     m_width = width;

@@ -1,6 +1,6 @@
-#include "Model.h"
-#include "Controller.h"
-#include "View.h"
+#include "GameLogic/Model.h"
+#include "GameLogic/Controller.h"
+#include "View/View.h"
 
 int main()
 {
