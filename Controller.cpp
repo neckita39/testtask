@@ -1,5 +1,9 @@
-//
-// Created by Никита Щербо on 13.10.2021.
-//
-
 #include "Controller.h"
+void Controller::LifeCycle(){
+    while (true){
+        m_model->Update();
+    }
+}
+Controller::Controller(Model &model){
+    m_model = &model;
+}
